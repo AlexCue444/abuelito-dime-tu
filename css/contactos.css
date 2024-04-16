@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    background-color: white;
+    background-image: url(../rec/lv4YAn.jpg);
+
+}
+
+#cabecera img{
+
+    height: 250px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    display: block;
+    border-radius: 0px;
+    box-shadow: 5px 8px 12px black;
+}
+
+
+#cabecera h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5rem;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: 5px 8px 12px black;
+
+
+}
+
+nav li:hover{
+
+    background-color: lightgray;
+    color: white;
+}
+
+nav ul{
+
+    background-color: lightslategray;
+    width: 100%;
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    padding: 15px;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+#contenido img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#contenido1 img{
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#contenido{
+    
+    display: flex;
+    margin: 80px;
+    text-align: center;
+
+}
+#contenido1{
+    
+    text-align: center;
+    margin: 80px;
+    
+
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: lightslategray;
+    color: white;
+    margin-top: 40px;
+    
+}
+footer p{
+    text-align: center;
+    padding: 15px;
+}
+
+form{
+    font-family: monospace;
+    background-image: url(rec/imagen1.jpg);
+    background-size: 100vw 100vh;
+    width: 600px;
+    height: 500px;
+    margin: auto;
+    background: gray;
+    padding: 20px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+form h2{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+
+input, textarea{
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+
+#button{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+#button:hover{
+    background-color: white;
+    color: black;
+}
